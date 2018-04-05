@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <link href="StyleSheet.css" rel="stylesheet" type="text/css"/>
+    <body>
+        <h1 id ="name">You walk into the empty seeming town at </h1> <button type="button"
+           onclick="document.getElementById('time').innerHTML = Date ()">
+        Time
+    </button><h1 id="time"></h1>
+    <h1>What building do you walk into?</h1>
+            <script>
+        var visitorName = prompt("What is your name")
+        document.getElementById("name").innerHTML = visitorName+" walks into the empty seeming town at";
+            </script>
+  <a href="Choice1.html">The bank</a>
+         <a href="Choice2.html">The bar</a>
+   <p></p> <!--this line is for spacing -->
+    <img src="town.png" alt="town">
+          </body>
+</html>
